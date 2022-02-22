@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Maven_Project.com.Mini_Project.Demo_class&apos; to &apos;Runner_Democlass&apos;&#x0D;&#x0A;- Original project: &apos;com.Mini_Project&apos;&#x0D;&#x0A;- Original element: &apos;Maven_Project.com.Mini_Project.Demo_class&apos;&#x0D;&#x0A;- Renamed element: &apos;Maven_Project.com.Mini_Project.Runner_Democlass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Demo_class&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;Maven_Project.com.Mini_Project{Demo_class.java[Demo_class" matchStrategy="1" name="Runner_Democlass" qualified="false" references="true" similarDeclarations="false" stamp="1638459200673" textual="false" version="1.0"/>
+</session>

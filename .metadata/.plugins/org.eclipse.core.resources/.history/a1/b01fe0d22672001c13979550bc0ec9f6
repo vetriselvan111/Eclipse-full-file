@@ -1,0 +1,38 @@
+package rest_Api;
+
+import org.codehaus.groovy.transform.tailrec.TernaryToIfStatementConverter;
+import org.junit.Assert;
+import org.junit.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+
+public class Data_Validate {
+
+	@Test
+	public void validate_Data() {
+	
+	RestAssured.baseURI="http://automationpractice.com";
+	
+	RequestSpecification request = RestAssured.given();
+	
+	Response response = request.get("/index.php");
+	
+	String response_Body = response.asString();
+	
+	System.out.println(response_Body);
+	
+	int statusCode = response.getStatusCode();
+	
+	System.out.println("Status code: "+ statusCode);
+	
+	Assert.assertEquals(200, statusCode);
+	
+	System.out.println("Data validation succesful");
+	
+	}
+
+
+}
